@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 769px) {
+    .principal {
+      display: flex;
+    }
+}
+@media (min-width: 769px) {
+    .doscolumnas {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.rem18::-webkit-scrollbar, .esconder::-webkit-scrollbar {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .rem18 {
+      width: 18rem;
+    }
+}
